@@ -1,43 +1,17 @@
-# 🚗 DashCam Security System
+# 🛡️ DashCam Verifier
 
-Système de surveillance vidéo sécurisé avec vérification blockchain.
+Interface de vérification d'intégrité des preuves vidéo.
 
-## 🚀 Applications
+## 🚀 Démo en ligne
 
-- **dashcam_controller.py** : Interface d'enregistrement
-- **security_hub.py** : Interface de vérification
+[URL Streamlit Cloud]
 
-## 📦 Installation Locale
+## 📦 Installation locale
 ```bash
 pip install -r requirements.txt
-streamlit run dashcam_controller.py
-streamlit run security_hub.py
+streamlit run app.py
 ```
 
-## 🌐 Démo en Ligne
+## 🔗 Apps liées
 
-[Lien vers l'application déployée]
-
-## 🔐 Configuration
-
-Les clés Supabase sont à configurer dans les fichiers Python.
-
-## 👨‍💻 Auteur
-
-Projet académique - 2026
-```
-
-### **4. `.gitignore`**
-```
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-buffer_local/
-temp_videos/
-*.mp4
-.streamlit/secrets.toml
-.env
+- [Enregistreur vidéo](https://github.com/younes-ferhat/dashcam-recorder)
